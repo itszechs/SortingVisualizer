@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ZenhqX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 id="title">Sorting Visualizer </h1>
+    <div id="sorting" class="flex-container">
+        <!-- Sorting view container -->
+    </div>
+
+    <div class="btn-group btn center" id="control-panel">
+        <button type="button" class="btn new">New Array</button>
+        <button type="button" class="btn stop" disabled>Stop Sorting</button>
+    </div>
+
+    <div class="btn-group btn center" id="control-panel">
+        <button type="button" class="btn bubbleSort">Bubble Sort</button>
+        <button type="button" class="btn mergeSort">Merge Sort</button>
+        <button type="button" class="btn selectionSort">Selection Sort</button>
+        <button type="button" class="btn quickSort">Quick Sort</button>
+        <button type="button" class="btn insertionSort">Insertion Sort</button>
+        <button type="button" class="btn heapSort">Heap Sort</button>
+    </div>
+
+    <p id="help">* select a sorting method to start sorting</p>
+
+    <script src="utils.js"></script>
+    <script src="sorting.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
